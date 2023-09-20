@@ -20,5 +20,6 @@ container-lint:
 refactor: format lint
 
 deploy:
+	python -m describe_stats
 		
 all: install lint test format deploy
